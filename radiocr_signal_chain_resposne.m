@@ -1,0 +1,59 @@
+%%
+working_directory = '/home/mugundhan/iitk/Work/RadioCR_ARG/radio_cr';
+cd(working_directory)
+
+%% Define frequency axis
+Freq = 80:1:300; % MHz
+k = 1.38e-23; % Boltzmann's constant
+%% Estimate the voltage required at the ADC input
+Vfs = 0.5; % full scale voltage
+vrms = Vfs/sqrt(2); 
+Zin_adc = 50;
+Prms = vrms * vrms / Zin_adc;
+PdBm = 10*log10(Prms*1000); % rms value of a full-scale sine wave is 0 dBFS
+
+%% However, typical strength of CR pulse ~ 1 uV/m/MHz
+% We can find the magnetic field strength from this as 
+E_per_MHz = 1e-6; % V/m/MHz
+Z0 = 377; % ohms
+% calculating the Poynting vector now for per MHz
+S = E_per_MHz.^2/Z0; % Compute using the field value, is in the units of W/m^2 per MHz 
+%S_int = S*(Freq(end) - Freq(1));
+% Now, when incident on an LPDA with a gain of 7 dBi, Power at its
+% terminals will be S*Aeff and Aeff = ((wavelength)^2/ (4*pi))*Gain
+Aeff = ((300./Freq).^2 / (4*pi))*10^(7/10);
+P_ant_out = S.*Aeff;
+P_total = sum((S.*Aeff)*1)*1000; % in milli-watts
+P_total_dBm = 10*log10(P_total)
+
+%% Noise power at the terminals of the lna, due to the sky
+I_g = 2.48*1e-20;
+I_eg = 1.06*1e-20;
+Inu = I_g*Freq.^(-0.52) + I_eg*Freq.^(-0.80); % Intensity in W/sq.m/Hz/sr
+
+% The field of view of an LPDA is ~ 60 deg in E-plane, and another 60 deg
+% in H Plane
+FoV = pi*(60/2)*(60/2);
+FoV_sr = FoV*(pi/180).^2;
+
+% Beam integrated intensity
+Inu_bi = Inu*FoV_sr; % W/sq.m/Hz
+
+% This, for the collecting area of the LPDA will be Inu_bi * Ae
+P_gal = (Inu_bi.*Aeff); % in Watts/Hz
+
+% S_gal over a frequency channel
+P_gal_ch_int = P_gal*1e6; 
+%P_gal_ch_int_dBm = 10*log10(P_gal_ch_int*1000); % 1 MHz integrated power over the opn. freq. 
+P_gal_band_int = sum(P_gal_ch_int);
+P_gal_int_dBm = 10*log10(P_gal_band_int*1000); 
+
+%%
+plot(P_ant_out)
+hold all
+plot(P_gal_ch_int/1000)
+yscale('log')
+
+%% Find the s-parameter files
+brf_s2p = sparameters('/home/mugundhan/iitk/Work/RadioCR_ARG/signal_chain_sparameters/JLCPCB_notch.s2p');
+brf_minickts_s2p = sparameters('/home/mugundhan/iitk/Work/RadioCR_ARG/signal_chain_sparameters/BSF-C88108+/BSF-C88108+_plus25degC.S2P');
