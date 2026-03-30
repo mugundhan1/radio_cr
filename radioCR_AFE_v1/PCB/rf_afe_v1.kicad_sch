@@ -2025,6 +2025,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Simulate PSA-8A+ component values in QUCS."
+		(exclude_from_sim no)
+		(at 177.038 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8734484-7b19-4718-b730-aa6a4b225044")
+	)
 	(junction
 		(at 26.67 83.82)
 		(diameter 0)
@@ -2935,7 +2945,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Small"
+		(property "Value" "5.1 nH"
 			(at 132.08 133.35 90)
 			(effects
 				(font
@@ -2952,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0805HT-5N1"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -2961,7 +2971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "0805HT-5N1"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -3071,7 +3081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L_Small"
+		(property "Value" "15 uH"
 			(at 171.45 134.6199 0)
 			(effects
 				(font
@@ -3089,7 +3099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "LQH32DN150K53L"
 			(at 170.18 133.35 0)
 			(effects
 				(font
@@ -3098,7 +3108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "LQH32DN150K53L"
 			(at 170.18 133.35 0)
 			(effects
 				(font
@@ -3273,7 +3283,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.4 nF"
 			(at 134.6136 87.63 90)
 			(effects
 				(font
@@ -3341,7 +3351,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1.5 pF"
 			(at 129.54 139.6935 0)
 			(effects
 				(font
@@ -3409,7 +3419,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10 uF"
 			(at 78.7463 58.42 90)
 			(effects
 				(font
@@ -3694,7 +3704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/BSF-108+.pdf"
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -3703,7 +3713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Band Reject filter 88 - 108 MHz"
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -3962,7 +3972,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1 nF"
 			(at 78.7463 67.31 90)
 			(effects
 				(font
@@ -4297,7 +4307,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 uF"
 			(at 148.5963 116.84 90)
 			(effects
 				(font
@@ -4432,7 +4442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 uF"
 			(at 207.772 60.198 0)
 			(effects
 				(font
@@ -4501,7 +4511,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.01 uF"
 			(at 196.8563 113.03 90)
 			(effects
 				(font
@@ -4569,7 +4579,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.2 uF"
 			(at 181.6163 132.08 90)
 			(effects
 				(font
@@ -4636,7 +4646,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10 uF"
 			(at 176.5363 110.49 90)
 			(effects
 				(font
@@ -4704,7 +4714,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1.5k"
 			(at 59.69 66.04 90)
 			(effects
 				(font
@@ -4772,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Small"
+		(property "Value" "5.1 nH"
 			(at 34.29 81.28 90)
 			(effects
 				(font
@@ -4789,7 +4799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0805HT-5N1"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -4798,7 +4808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "0805HT-5N1"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -4840,7 +4850,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.2 uF"
 			(at 43.1863 80.01 90)
 			(effects
 				(font
@@ -4909,7 +4919,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1.5 pF"
 			(at 31.75 87.6235 0)
 			(effects
 				(font
@@ -5044,7 +5054,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 uF"
 			(at 50.8063 64.77 90)
 			(effects
 				(font
@@ -5111,7 +5121,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.4 nF"
 			(at 205.74 78.232 90)
 			(effects
 				(font
@@ -5264,7 +5274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SP3031-01ETG"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Littelfuse/SP3031-01ETG?qs=B%2FZyIADl9o%252B%2FfpJwZJPmLg%3D%3D"
 			(at 26.67 73.66 0)
 			(effects
 				(font
@@ -5383,7 +5393,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.2u F"
 			(at 140.9763 132.08 90)
 			(effects
 				(font
@@ -5469,7 +5479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/RBP-188+.pdf"
 			(at 222.25 74.93 0)
 			(effects
 				(font
@@ -5478,7 +5488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Band pass filter 138 - 250 MHz"
 			(at 222.25 74.93 0)
 			(effects
 				(font
@@ -5605,7 +5615,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "36.5"
 			(at 195.58 64.7699 0)
 			(effects
 				(font
@@ -5674,7 +5684,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.2 uF"
 			(at 87.6363 80.01 90)
 			(effects
 				(font
@@ -5809,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 144.78 88.9 90)
 			(effects
 				(font
@@ -5878,7 +5888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L_Small"
+		(property "Value" "15 uH"
 			(at 194.31 71.1199 0)
 			(effects
 				(font
@@ -5896,7 +5906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "LQH32DN150K53L"
 			(at 193.04 69.85 0)
 			(effects
 				(font
@@ -5905,7 +5915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "LQH32DN150K53L"
 			(at 193.04 69.85 0)
 			(effects
 				(font
@@ -6230,7 +6240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/PSA-8A+.pdf"
 			(at 167.64 82.55 0)
 			(effects
 				(font
@@ -6239,7 +6249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Amplifier Gaom block"
 			(at 167.64 82.55 0)
 			(effects
 				(font
@@ -6359,7 +6369,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1.5k"
 			(at 157.48 118.11 90)
 			(effects
 				(font
@@ -6493,7 +6503,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1 nF"
 			(at 176.5363 119.38 90)
 			(effects
 				(font
@@ -6647,7 +6657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SP3031-01ETG"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Littelfuse/SP3031-01ETG?qs=B%2FZyIADl9o%252B%2FfpJwZJPmLg%3D%3D"
 			(at 26.67 73.66 0)
 			(effects
 				(font
@@ -7044,7 +7054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L_Small"
+		(property "Value" "15 uH"
 			(at 73.66 82.5499 0)
 			(effects
 				(font
@@ -7062,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "LQH32DN150K53L"
 			(at 72.39 81.28 0)
 			(effects
 				(font
@@ -7071,7 +7081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "LQH32DN150K53L"
 			(at 72.39 81.28 0)
 			(effects
 				(font
@@ -7130,7 +7140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/TCBT-6G+.pdf"
 			(at 201.93 133.35 0)
 			(effects
 				(font
@@ -7139,7 +7149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TCBT-6G+"
 			(at 201.93 133.35 0)
 			(effects
 				(font
