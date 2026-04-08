@@ -1,4 +1,11 @@
-26194846698581205
+26221445007034152
+2N5109
+TO5A
+<b>TO-5</b><p>grid 5.08 mm
+
+0
+3
+3
 2029-09-SMLF
 FUSE_2029-09-SM-RPLF_BRN
 
@@ -20,6 +27,41 @@ FUSE_2029-09-SM-RPLF_BRN-M
 0
 2
 2
+8526-4500PL
+3M_8526-4500PL
+
+
+0
+26
+26
+1860196
+1860196
+1860196-1
+Connector
+0
+2
+2
+ADM7171
+CP-8-21_ADI
+
+ADM7171ACPZ-3.3-R7 
+0
+9
+9
+ADM7171
+CP-8-21_ADI-L
+
+ADM7171ACPZ-3.3-R7 
+0
+9
+9
+ADM7171
+CP-8-21_ADI-M
+
+ADM7171ACPZ-3.3-R7 
+0
+9
+9
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57595,6 +57637,13 @@ ceramic
 0
 3
 3
+DC-005-5A-2.0
+XKB_DC-005-5A-2.0
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -67374,6 +67423,13 @@ THT
 0
 4
 2
+J310
+TO-92-3L_5P33X5P2_ONS
+
+J310 
+0
+3
+3
 Jumper
 Jumper_Harwin_S1621_P10.9mm
 Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf
@@ -68837,6 +68893,27 @@ Yellow 5381 Series LED
 0
 2
 2
+LTC6754
+QFN12_UD_ADI
+
+LTC6754HUD-PBF 
+0
+13
+13
+LTC6754
+QFN12_UD_ADI-L
+
+LTC6754HUD-PBF 
+0
+13
+13
+LTC6754
+QFN12_UD_ADI-M
+
+LTC6754HUD-PBF 
+0
+13
+13
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -95178,6 +95255,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SN65LVDS122
+D16
+
+SN65LVDS122D 
+0
+16
+16
+SN65LVDS122
+D16-L
+
+SN65LVDS122D 
+0
+16
+16
+SN65LVDS122
+D16-M
+
+SN65LVDS122D 
+0
+16
+16
 SP3021
 SOD882_LTF
 
@@ -104454,16 +104552,23 @@ mini-circuits pl-049
 36
 8
 minickts_kicad
+PAT-3+
+
+
+0
+4
+4
+minickts_kicad
 QFN-8_EP_2x2_Pitch0.5mm
 
 
 0
 25
 9
-minickts_kicad
-Untitled
+xtal_ak7daf1-125MHz
+XTAL_AK7DAF1-125.0000
 
 
 0
-0
-0
+6
+6
