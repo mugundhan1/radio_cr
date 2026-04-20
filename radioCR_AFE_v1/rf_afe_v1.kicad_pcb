@@ -10896,14 +10896,6 @@
 		(net 4)
 		(uuid "e90659bd-2b59-4963-a2c7-69f2da84c587")
 	)
-	(segment
-		(start 97.5 95.25)
-		(end 97.45 95.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "77224b85-3081-4f18-9103-eedbeb693e07")
-	)
 	(via
 		(at 195.748142 108.5659)
 		(size 0.6)
@@ -17712,13 +17704,13 @@
 		(keepout
 			(tracks allowed)
 			(vias allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
 			(enabled no)
-			(sheetname "")
+			(sheetname "/")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -19175,13 +19167,13 @@
 		(keepout
 			(tracks allowed)
 			(vias allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
 			(enabled no)
-			(sheetname "")
+			(sheetname "/")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -19585,13 +19577,13 @@
 		(keepout
 			(tracks allowed)
 			(vias allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
 			(enabled no)
-			(sheetname "")
+			(sheetname "/")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -19708,13 +19700,13 @@
 		(keepout
 			(tracks allowed)
 			(vias allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
 			(enabled no)
-			(sheetname "")
+			(sheetname "/")
 		)
 		(fill
 			(thermal_gap 0.5)
